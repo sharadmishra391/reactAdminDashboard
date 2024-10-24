@@ -1,0 +1,284 @@
+/*navbar*/
+.nav{
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    background-color: rgba(5,24,98,255);
+}
+.logo{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 900;
+}
+.li{
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 700;
+    color: #fff ;
+}
+.li:hover{
+    color: orangered;
+    font-weight: 800;
+}
+/*home*/
+.homeh1{
+    color: rgb(0, 120, 194) ;
+    text-align: center;
+    margin-top: 20px;
+}
+.dashboardimg{
+    width: 100%;
+    height: auto;
+    
+}
+/*insert data*/
+
+.insertback{
+    background-color:  rgba(5,24,98,255);
+    width: 1000px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.insertback1{
+    background-color: #fff;
+    width: 450px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+
+}
+.inserth1{
+    color: orangered ;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 67px;
+    
+
+}
+.parentinsert{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.insertform label{
+    margin: 5px;
+    font-size: 20px;
+    color:  rgba(5,24,98,255);
+    font-weight: 700;
+}
+.insertform input{
+    margin: 5px;
+    width: 400px;
+    border-radius: 7px;
+    border: 1px  rgba(5,24,98,255)  ;
+    padding: 7px;
+    background-color: #dbdbdb;
+}
+
+.insertform button{
+    width: 400px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color:  rgba(5,24,98,255);
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.insertform button:hover{
+    background-color: rgb(0, 0, 255) ;
+    transition: 0.3S;
+    font-weight: 900;
+}
+
+/*edit data*/
+.edith1{
+    color: rgb(0, 120, 194) ;
+    text-align: center;
+    margin-top: 20px;
+}
+.parentedit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.editform label{
+    margin: 20px;
+    font-size: 20px;
+    color:  rgb(0, 120, 194);
+}
+.editform input{
+    margin: 20px;
+    width: 400px;
+}
+.editform .inputtwo{
+    margin-left: 88px;
+}
+.editform .inputthree{
+    margin-left: 88px;
+}
+.editform .inputfour{
+    margin-left: 35px;
+}
+.editform button{
+    width: 600px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 120, 194) ;
+    margin-left: 30px;
+    align-items: center;
+}
+
+/*display data*/
+.displaymainpage{
+margin-left: 240px;
+margin-bottom: 30px;
+}
+.displaytop1{
+    background-color: rgba(5,24,98,255) ;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    border-top-left-radius: 20px;
+}
+.displaytop2{
+    background-color: rgba(5,24,98,255);
+    padding: 10px;
+    padding-bottom: 40px;
+    width: 80%;
+    border-bottom-right-radius: 20px;
+}
+.displayh1{
+    color: orangered ;
+    text-align: left;
+    font-weight: 700;
+}
+.parentdisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.displaydata{
+    width: 90%;
+    height: auto;
+    align-self: center;
+    
+    
+}
+/*table*/
+.displaytable{
+    text-align: center;
+    font-size: 22px;
+    background: rgb(154,170,255);
+    background: radial-gradient(circle, rgba(154,170,255,1) 0%, rgb(230, 253, 255) 100%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+tr{
+    border: 5px solid rgba(0, 0, 0, 0);
+}
+th{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    
+}
+td{
+    width: 150px;
+    font-size: 19px;
+}
+
+/*search*/
+.searchnew{
+    background-color: #fff;
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+}
+.searchh1{
+    text-align: left;
+    margin-top: 10px;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 800;
+}
+.parentsearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.searchbtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: orangered ;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.searchinput{
+    width: 200px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+/*search by name*/
+.sbynh1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 120, 194) ;
+}
+.sbynparent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.sbyn table{
+    width: 800px;
+    margin-top: 30px;
+    background: rgb(154,170,255);
+    background: radial-gradient(circle, rgba(154,170,255,1) 0%, rgba(230,253,255,1) 100%);
+    
+}
+.sbyntr{
+    justify-content: space-evenly;
+}
+.sbyn{
+    text-align: center;
+}
+/*update page*/
+.updateh1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 120, 194) ;
+}
+.parentupdate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.update table{
+    width: 800px;
+    margin-top: 30px;
+    background: rgb(154,170,255);
+    background: radial-gradient(circle, rgba(154,170,255,1) 0%, rgba(230,253,255,1) 100%);
+}
