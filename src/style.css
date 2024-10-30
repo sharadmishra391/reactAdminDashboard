@@ -52,14 +52,39 @@
 
 }
 .inserth1{
-    color: orangered ;
+    /* color: orangered ;
     text-align: center;
     margin-top: 20px;
     font-weight: 700;
-    font-size: 67px;
+    font-size: 67px; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: calc( 19px + 10vmin );
+    font-weight: 900;
+    color: tomato;
+    
+    --x-offset: -0.0625em;
+    --y-offset: 0.0625em;
+    --stroke: 0.025em;
+    --background-color: white;
+    --stroke-color: lightblue;
+
+    text-shadow: 
+    
+    var(--x-offset)
+    var(--y-offset)
+    0px
+    var(--background-color), 
+    
+    calc( var(--x-offset) - var(--stroke) )
+    calc( var(--y-offset) + var(--stroke) )
+    0px
+    var(--stroke-color);
+  
+}
     
 
-}
+
 .parentinsert{
     display: flex;
     justify-content: space-around;
